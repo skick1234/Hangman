@@ -54,7 +54,7 @@ void SkickSDL::createTextTexture(string text, int x, int y) {
 
 void SkickSDL::createImageBackground(string fileName) {
     SDL_Texture* texture = NULL;
-    texture = painter->loadTexture(fileName);
+    texture = painter->loadTexture("img\\" + fileName);
     painter->createImage(texture);
     SDL_RenderCopy(renderer, texture, NULL, NULL);
     SDL_DestroyTexture(texture);
@@ -64,7 +64,7 @@ void SkickSDL::createImage(string fileName, int x, int y) {
     SDL_Rect srcRest;
     SDL_Rect desRect;
     SDL_Texture* texture = NULL;
-    texture = painter->loadImage(fileName, &srcRest, &desRect, x, y);
+    texture = painter->loadImage("img\\" + fileName, &srcRest, &desRect, x, y);
     SDL_RenderCopy(renderer, texture, &srcRest, &desRect);
     SDL_DestroyTexture(texture);
 }

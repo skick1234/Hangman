@@ -6,13 +6,13 @@ using namespace std;
 
 string normalize(const string& s) {
     string news = s;
-    transform(s.begin(), s.end(), news.begin(), ::tolower);
+    transform(s.begin(), s.end(), news.begin(), ::toupper);
     return news;
 }
 
 string chooseWord(const string& fileName, int difficult) {
     vector<string> vocabulary;
-    ifstream file(fileName);
+    ifstream file("words\\" + fileName);
     if (!file.is_open())
         return "";
 
@@ -24,7 +24,6 @@ string chooseWord(const string& fileName, int difficult) {
     }
 
     int n = vocabulary.size();
-    cout << "vocabulary size = " << n << endl;
     string word = vocabulary[rand() % n];
     return n > 0 ? ((word.length() > 5 && difficult) || (word.length() < 5 && !difficult) ? word : chooseWord(fileName, difficult)) : "";
 }

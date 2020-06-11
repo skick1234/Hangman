@@ -2,29 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release" />
-	<File name="SkickSDL.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="utility.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="604" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="481" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="SkickSDL.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="892" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="utility.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="174" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Game.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="386" topLine="0" />
+			<Cursor1 position="612" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="painter.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -32,19 +12,42 @@
 			<Cursor1 position="4273" topLine="109" />
 		</Cursor>
 	</File>
-	<File name="Game.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6296" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="painter.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="2028" topLine="21" />
 		</Cursor>
 	</File>
-	<File name="utility.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="235" topLine="0" />
+			<Cursor1 position="17" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Game.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1686" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="utility.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="174" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Game.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="277" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="16" />
+		</Folding>
+	</File>
+	<File name="SkickSDL.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="604" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="SkickSDL.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1795" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
